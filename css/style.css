@@ -1,0 +1,172 @@
+*::selection{
+    background-color: black;
+    color: white;
+}
+.my-font{
+    color: #f4ad2d;
+    font-family: 'Hepta Slab', serif; 
+    font-weight: 300;
+    /* line-height: 0.3; */
+}
+
+#home-page{
+    background-image: url(../img/hero_1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+#home-page .navbar{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    margin: 0 13px;
+}
+.navbar-dark .navbar-brand{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+}
+.home-caption h1{
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+.home-caption p{
+    font-size: 18px;
+}
+/**************************************************************/
+.work-img{
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.work-img img{
+    transition: all 0.4s;
+    transition-delay: 0.1s;  
+}
+.black-layer{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.work-img:hover .black-layer{
+    opacity: 1;
+}
+.work-img:hover img{
+    transform: scale(1.1);
+}
+/*******************************************/
+/* for more help about How To Create a Modal Box  with CSS and JavaScript
+ visit this link --> https://www.w3schools.com/howto/howto_css_modals.asp */
+#lightbox-container
+{
+    z-index: 1; /* Sit on top   */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+#lightbox-item
+{
+    width: 50%;
+    height: 70vh;
+    background-image: url(../img/img_1.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+/*******************************************************************/
+#about , .contact{
+    background-color: black;
+    padding: 40px 0;
+}
+.brdr-left {
+    border-left: 10px solid #f4ad2d;
+    padding-left: 30px;
+}
+.about-caption p{
+    line-height: 1.7;
+}
+.social a i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,.2);
+    color: #f4ad2d;
+    padding: 17px;
+    text-align: center;
+}
+.social a:hover i{
+    background-color: white;
+}
+/**********************************************************/
+.Client p {
+    font-size: 18px;
+    font-weight: lighter;
+    font-style: italic;
+}
+/*********************************************************/
+.Events-caption a{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
+.Events-caption h4:hover a{
+    color: #f4ad2d;
+}
+.Events-caption span a{
+    color: #f4ad2d;
+    padding-left: 10px;
+}
+.Events-caption span:hover a{
+    color: #b68937;
+}
+/***********************************************************/
+/* .contact{
+    background-color: black;
+    padding: 40px 0;
+} */
+.h2-Font{
+    color: white;
+    font-size: 15px;
+    padding-top: 8px;
+    font-weight: lighter;
+}
+/* .contact-txt h2{
+    padding-left: 38px;
+} */
+.contact-txt ul{
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+}
+.contact-txt ul li a ,.footer-copy a{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    line-height: 2.5;
+    font-weight: lighter;
+}
+.contact-txt li:hover a {
+    color: white;
+}
+/******************************************************************************/
+.brdr-top{
+    margin: auto;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 3rem;
+}
+/********************************************************************************/
